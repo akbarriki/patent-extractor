@@ -46,8 +46,8 @@ class Patents():
 
 
 if __name__ == "__main__":
-  source_file = "patent_num.txt"
-  target_dir = "target/"
-  patents = Patents(source_file, target_dir)
+#   source_file = "patent_num.txt"
+#   target_dir = "target/"
+  patents = Patents()
   patents.get_patent_bulk()
 #   print(patents.get_patent_text("WO2005062560A1"))
